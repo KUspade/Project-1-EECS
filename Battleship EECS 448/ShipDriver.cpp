@@ -45,7 +45,7 @@ void ShipDriver::PopulateBoard(int m_shipNum)
 	int adjRow; // the adjusted row value after converting the user's coordinate
 	int adjCol; // the adjusted column value after converting the user's coordinate
 
-	//  Player 1:
+	// Player 1:
 	if (playerTurn == 1)
 	{
 		while(counter < m_shipNum && playerTurn == 1)
